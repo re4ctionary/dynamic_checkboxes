@@ -1,0 +1,45 @@
+*{
+  font-family: arial, verdana, sans-serfi;
+  font-size: 11pt;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  padding: 5px;
+}
+
+.customFilterCheckbox {
+  margin: 10px;
+  display: block;
+}
+
+.customFilterCheckbox:hover {
+  cursor: pointer;
+}
+
+.filterColCheckbox {
+  width:900px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+  padding: 10px;
+}
+
+.filterColCheckbox h1 {
+  margin: 0px 0 10px 0;
+}
+
+.BasicOptions {
+  background-color: #eee;
+  width:270px;
+  padding: 15px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin-bottom: 20px;
+}
